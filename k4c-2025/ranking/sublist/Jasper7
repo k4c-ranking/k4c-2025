@@ -1,0 +1,67 @@
+[
+    {
+        "user": "Jasper7",
+        "task": "A",
+        "time": 5121869,
+        "key": "8",
+        "token": false,
+        "score": 0,
+        "extra": []
+    },
+    {
+        "user": "Jasper7",
+        "task": "A",
+        "time": 5121910,
+        "key": "9",
+        "token": false,
+        "score": 0,
+        "extra": []
+    },
+    {
+        "user": "Jasper7",
+        "task": "A",
+        "time": 5121945,
+        "key": "10",
+        "token": false,
+        "score": 0,
+        "extra": []
+    },
+    {
+        "user": "Jasper7",
+        "task": "B",
+        "time": 5122153,
+        "key": "11",
+        "token": false,
+        "score": 96.0,
+        "extra": [
+            "32",
+            "64"
+        ]
+    },
+    {
+        "user": "Jasper7",
+        "task": "C",
+        "time": 5129155,
+        "key": "18",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Jasper7",
+        "task": "C",
+        "time": 5129535,
+        "key": "19",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "40",
+            "40",
+            "20"
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "name": "DAG",
+    "short_name": "D",
+    "contest": "k4c",
+    "max_score": 100.0,
+    "extra_headers": [
+        "Subtask 1 (33)",
+        "Subtask 2 (33)",
+        "Subtask 3 (34)"
+    ],
+    "order": 3,
+    "score_mode": "max_subtask",
+    "score_precision": 0
+}
