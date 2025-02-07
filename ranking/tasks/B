@@ -4,10 +4,9 @@
     "contest": "k4c",
     "max_score": 100.0,
     "extra_headers": [
-        "Examples (0)",
-        "Subtask 1 (4)",
-        "Subtask 2 (32)",
-        "Subtask 3 (64)"
+        "Examples (4)",
+        "Subtask 1 (32)",
+        "Subtask 2 (64)"
     ],
     "order": 1,
     "score_mode": "max_subtask",

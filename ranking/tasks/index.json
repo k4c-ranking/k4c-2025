@@ -17,10 +17,9 @@
         "contest": "k4c",
         "max_score": 100.0,
         "extra_headers": [
-            "Examples (0)",
-            "Subtask 1 (4)",
-            "Subtask 2 (32)",
-            "Subtask 3 (64)"
+            "Examples (4)",
+            "Subtask 1 (32)",
+            "Subtask 2 (64)"
         ],
         "order": 1,
         "score_mode": "max_subtask",
@@ -125,7 +124,7 @@
     },
     "H2": {
         "name": "The Lazy Problem (hard version)",
-        "short_name": "H1",
+        "short_name": "H2",
         "contest": "k4c",
         "max_score": 100.0,
         "extra_headers": [
