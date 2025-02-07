@@ -5,9 +5,9 @@
         "time": 1643,
         "key": "0",
         "token": false,
-        "score": 0,
+        "score": 100.0,
         "extra": [
-            "0"
+            "100"
         ]
     },
     {
@@ -16,8 +16,10 @@
         "time": 1875,
         "key": "1",
         "token": false,
-        "score": 0,
-        "extra": []
+        "score": 100.0,
+        "extra": [
+            "100"
+        ]
     },
     {
         "user": "jeff_wu0302",
@@ -27,6 +29,7 @@
         "token": false,
         "score": 32.0,
         "extra": [
+            "0",
             "32",
             "0"
         ]
@@ -37,8 +40,9 @@
         "time": 3124,
         "key": "3",
         "token": false,
-        "score": 0.0,
+        "score": 4.0,
         "extra": [
+            "4",
             "0",
             "0"
         ]
