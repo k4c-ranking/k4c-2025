@@ -1,0 +1,16 @@
+{
+    "name": "Math 101 (hard version)",
+    "short_name": "K2",
+    "contest": "k4c",
+    "max_score": 100.0,
+    "extra_headers": [
+        "Subtask 1 (15)",
+        "Subtask 2 (15)",
+        "Subtask 3 (30)",
+        "Subtask 4 (30)",
+        "Subtask 5 (10)"
+    ],
+    "order": 12,
+    "score_mode": "max_subtask",
+    "score_precision": 0
+}
