@@ -1,27 +1,432 @@
 {
     "0": {
-        "user": "team08",
-        "task": "A",
-        "time": 1643
+        "user": "EthanChiu6",
+        "task": "C",
+        "time": 4788589
     },
     "1": {
-        "user": "team08",
-        "task": "A",
-        "time": 1875
+        "user": "EthanChiu6",
+        "task": "C",
+        "time": 4788947
     },
     "2": {
-        "user": "team08",
-        "task": "B",
-        "time": 3056
+        "user": "EthanChiu6",
+        "task": "C",
+        "time": 4789081
     },
     "3": {
-        "user": "team08",
+        "user": "EthanChiu6",
+        "task": "C",
+        "time": 4789492
+    },
+    "13": {
+        "user": "EthanChiu6",
+        "task": "A",
+        "time": 5125395
+    },
+    "14": {
+        "user": "EthanChiu6",
+        "task": "C",
+        "time": 5125498
+    },
+    "16": {
+        "user": "EthanChiu6",
         "task": "B",
-        "time": 3124
+        "time": 5125808
+    },
+    "17": {
+        "user": "EthanChiu6",
+        "task": "D",
+        "time": 5126485
+    },
+    "47": {
+        "user": "EthanChiu6",
+        "task": "D",
+        "time": 6059774
+    },
+    "51": {
+        "user": "EthanChiu6",
+        "task": "D",
+        "time": 6367562
+    },
+    "52": {
+        "user": "EthanChiu6",
+        "task": "D",
+        "time": 6368451
+    },
+    "67": {
+        "user": "EthanChiu6",
+        "task": "D",
+        "time": 6428954
+    },
+    "73": {
+        "user": "EthanChiu6",
+        "task": "D",
+        "time": 6605554
+    },
+    "74": {
+        "user": "EthanChiu6",
+        "task": "K1",
+        "time": 6686158
+    },
+    "75": {
+        "user": "EthanChiu6",
+        "task": "K1",
+        "time": 6686889
+    },
+    "76": {
+        "user": "EthanChiu6",
+        "task": "K1",
+        "time": 6883106
     },
     "4": {
-        "user": "team08",
+        "user": "sc.1101.rex",
+        "task": "A",
+        "time": 4852542
+    },
+    "5": {
+        "user": "sc.1101.rex",
+        "task": "B",
+        "time": 4852916
+    },
+    "6": {
+        "user": "sc.1101.rex",
+        "task": "C",
+        "time": 5021624
+    },
+    "7": {
+        "user": "sc.1101.rex",
+        "task": "C",
+        "time": 5021858
+    },
+    "42": {
+        "user": "sc.1101.rex",
+        "task": "B",
+        "time": 5931701
+    },
+    "43": {
+        "user": "sc.1101.rex",
+        "task": "C",
+        "time": 5931840
+    },
+    "44": {
+        "user": "sc.1101.rex",
+        "task": "C",
+        "time": 6000126
+    },
+    "45": {
+        "user": "sc.1101.rex",
+        "task": "C",
+        "time": 6000187
+    },
+    "46": {
+        "user": "sc.1101.rex",
+        "task": "C",
+        "time": 6000439
+    },
+    "62": {
+        "user": "sc.1101.rex",
         "task": "K1",
-        "time": 7578
+        "time": 6423389
+    },
+    "69": {
+        "user": "sc.1101.rex",
+        "task": "D",
+        "time": 6494702
+    },
+    "8": {
+        "user": "Jasper7",
+        "task": "A",
+        "time": 5121869
+    },
+    "9": {
+        "user": "Jasper7",
+        "task": "A",
+        "time": 5121910
+    },
+    "10": {
+        "user": "Jasper7",
+        "task": "A",
+        "time": 5121945
+    },
+    "11": {
+        "user": "Jasper7",
+        "task": "B",
+        "time": 5122153
+    },
+    "18": {
+        "user": "Jasper7",
+        "task": "C",
+        "time": 5129155
+    },
+    "19": {
+        "user": "Jasper7",
+        "task": "C",
+        "time": 5129535
+    },
+    "12": {
+        "user": "RayYu",
+        "task": "A",
+        "time": 5125237
+    },
+    "15": {
+        "user": "RayYu",
+        "task": "B",
+        "time": 5125719
+    },
+    "20": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5129591
+    },
+    "21": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5197957
+    },
+    "22": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5198391
+    },
+    "23": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5210030
+    },
+    "24": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5210236
+    },
+    "25": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5211516
+    },
+    "26": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5212133
+    },
+    "27": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5212196
+    },
+    "28": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5212483
+    },
+    "29": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5212675
+    },
+    "30": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5212837
+    },
+    "31": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5212963
+    },
+    "32": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5213045
+    },
+    "33": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5213600
+    },
+    "34": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5213676
+    },
+    "35": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5214014
+    },
+    "36": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5214467
+    },
+    "37": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5215098
+    },
+    "38": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5215440
+    },
+    "39": {
+        "user": "RayYu",
+        "task": "C",
+        "time": 5215629
+    },
+    "40": {
+        "user": "ericaaaaa",
+        "task": "A",
+        "time": 5724004
+    },
+    "41": {
+        "user": "ericaaaaa",
+        "task": "A",
+        "time": 5736315
+    },
+    "70": {
+        "user": "ericaaaaa",
+        "task": "A",
+        "time": 6603127
+    },
+    "71": {
+        "user": "ericaaaaa",
+        "task": "A",
+        "time": 6603314
+    },
+    "72": {
+        "user": "ericaaaaa",
+        "task": "B",
+        "time": 6604963
+    },
+    "48": {
+        "user": "PureDevr",
+        "task": "A",
+        "time": 6075001
+    },
+    "49": {
+        "user": "PureDevr",
+        "task": "B",
+        "time": 6243924
+    },
+    "50": {
+        "user": "PureDevr",
+        "task": "B",
+        "time": 6245039
+    },
+    "54": {
+        "user": "Kyle_Ho",
+        "task": "A",
+        "time": 6421591
+    },
+    "57": {
+        "user": "Kyle_Ho",
+        "task": "K1",
+        "time": 6422504
+    },
+    "58": {
+        "user": "Kyle_Ho",
+        "task": "K1",
+        "time": 6422700
+    },
+    "59": {
+        "user": "Kyle_Ho",
+        "task": "K1",
+        "time": 6422756
+    },
+    "60": {
+        "user": "Kyle_Ho",
+        "task": "K1",
+        "time": 6422835
+    },
+    "61": {
+        "user": "Kyle_Ho",
+        "task": "K1",
+        "time": 6423301
+    },
+    "68": {
+        "user": "jeff_wu0302",
+        "task": "A",
+        "time": 6442806
+    },
+    "91": {
+        "user": "jeff_wu0302",
+        "task": "H2",
+        "time": 7556282
+    },
+    "92": {
+        "user": "jeff_wu0302",
+        "task": "H2",
+        "time": 7556409
+    },
+    "93": {
+        "user": "jeff_wu0302",
+        "task": "H2",
+        "time": 7559143
+    },
+    "94": {
+        "user": "jeff_wu0302",
+        "task": "B",
+        "time": 7788507
+    },
+    "95": {
+        "user": "jeff_wu0302",
+        "task": "B",
+        "time": 7788599
+    },
+    "96": {
+        "user": "jeff_wu0302",
+        "task": "J",
+        "time": 7888511
+    },
+    "97": {
+        "user": "jeff_wu0302",
+        "task": "J",
+        "time": 7888663
+    },
+    "98": {
+        "user": "jeff_wu0302",
+        "task": "J",
+        "time": 7888945
+    },
+    "99": {
+        "user": "jeff_wu0302",
+        "task": "J",
+        "time": 7889262
+    },
+    "100": {
+        "user": "jeff_wu0302",
+        "task": "H1",
+        "time": 8010815
+    },
+    "101": {
+        "user": "jeff_wu0302",
+        "task": "H1",
+        "time": 8010829
+    },
+    "105": {
+        "user": "jeff_wu0302",
+        "task": "D",
+        "time": 8401120
+    },
+    "106": {
+        "user": "jeff_wu0302",
+        "task": "D",
+        "time": 8401222
+    },
+    "102": {
+        "user": "cam196883",
+        "task": "B",
+        "time": 8015938
+    },
+    "103": {
+        "user": "cam196883",
+        "task": "B",
+        "time": 8016268
+    },
+    "104": {
+        "user": "cam196883",
+        "task": "A",
+        "time": 8016365
     }
 }
