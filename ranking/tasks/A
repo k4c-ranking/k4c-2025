@@ -1,0 +1,12 @@
+{
+    "name": "!(Hello World)",
+    "short_name": "A",
+    "contest": "k4c",
+    "max_score": 100.0,
+    "extra_headers": [
+        "Examples (100)"
+    ],
+    "order": 0,
+    "score_mode": "max_subtask",
+    "score_precision": 0
+}
