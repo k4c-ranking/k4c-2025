@@ -1,0 +1,132 @@
+[
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "A",
+        "time": 197,
+        "key": "12",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "100"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 2488,
+        "key": "51",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 2847,
+        "key": "54",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 2964,
+        "key": "58",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3024,
+        "key": "59",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3140,
+        "key": "63",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3299,
+        "key": "65",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3489,
+        "key": "67",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "4",
+            "32",
+            "64"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "D",
+        "time": 3853,
+        "key": "75",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "JEFFS WINGMEN",
+        "task": "C",
+        "time": 5459,
+        "key": "98",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    }
+]

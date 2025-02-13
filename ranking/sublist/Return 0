@@ -1,0 +1,159 @@
+[
+    {
+        "user": "Return 0",
+        "task": "A",
+        "time": 521,
+        "key": "4",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "100"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "B",
+        "time": 288,
+        "key": "16",
+        "token": false,
+        "score": 0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "B",
+        "time": 332,
+        "key": "18",
+        "token": false,
+        "score": 32.0,
+        "extra": [
+            "0",
+            "32",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "A",
+        "time": 532,
+        "key": "24",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "100"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "B",
+        "time": 906,
+        "key": "28",
+        "token": false,
+        "score": 32.0,
+        "extra": [
+            "0",
+            "32",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "B",
+        "time": 2241,
+        "key": "45",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "B",
+        "time": 2270,
+        "key": "46",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "4",
+            "32",
+            "64"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "D",
+        "time": 5098,
+        "key": "91",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "K1",
+        "time": 5685,
+        "key": "100",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "K1",
+        "time": 5776,
+        "key": "102",
+        "token": false,
+        "score": 0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "K1",
+        "time": 5807,
+        "key": "104",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "D",
+        "time": 6358,
+        "key": "113",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    }
+]

@@ -1,0 +1,299 @@
+[
+    {
+        "user": "Ill byte you",
+        "task": "A",
+        "time": 287,
+        "key": "2",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "100"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "A",
+        "time": 147,
+        "key": "11",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "100"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 261,
+        "key": "15",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 326,
+        "key": "17",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 399,
+        "key": "21",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 955,
+        "key": "29",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "4",
+            "32",
+            "64"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 2163,
+        "key": "41",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 2369,
+        "key": "47",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 2371,
+        "key": "48",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 2487,
+        "key": "50",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 2543,
+        "key": "52",
+        "token": false,
+        "score": 33.0,
+        "extra": [
+            "0",
+            "0",
+            "33",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 2932,
+        "key": "57",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 3611,
+        "key": "68",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 3689,
+        "key": "70",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 4152,
+        "key": "78",
+        "token": false,
+        "score": 33.0,
+        "extra": [
+            "0",
+            "0",
+            "33",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 4167,
+        "key": "79",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 4464,
+        "key": "82",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 4561,
+        "key": "83",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 5236,
+        "key": "96",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "0",
+            "33",
+            "33",
+            "34"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 6222,
+        "key": "111",
+        "token": false,
+        "score": 100.0,
+        "extra": [
+            "0",
+            "40",
+            "40",
+            "20"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "K1",
+        "time": 6372,
+        "key": "114",
+        "token": false,
+        "score": 20.0,
+        "extra": [
+            "0",
+            "20",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Ill byte you",
+        "task": "K1",
+        "time": 6712,
+        "key": "115",
+        "token": false,
+        "score": 20.0,
+        "extra": [
+            "0",
+            "20",
+            "0",
+            "0"
+        ]
+    }
+]

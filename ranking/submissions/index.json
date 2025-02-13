@@ -1,457 +1,612 @@
 {
     "0": {
-        "user": "EthanChiu6",
-        "task": "C",
-        "time": 4788589
-    },
-    "1": {
-        "user": "EthanChiu6",
-        "task": "C",
-        "time": 4788947
-    },
-    "2": {
-        "user": "EthanChiu6",
-        "task": "C",
-        "time": 4789081
+        "user": "Stiff",
+        "task": "A",
+        "time": 151
     },
     "3": {
-        "user": "EthanChiu6",
-        "task": "C",
-        "time": 4789492
-    },
-    "13": {
-        "user": "EthanChiu6",
-        "task": "A",
-        "time": 5125395
-    },
-    "14": {
-        "user": "EthanChiu6",
-        "task": "C",
-        "time": 5125498
-    },
-    "16": {
-        "user": "EthanChiu6",
+        "user": "Stiff",
         "task": "B",
-        "time": 5125808
-    },
-    "17": {
-        "user": "EthanChiu6",
-        "task": "D",
-        "time": 5126485
-    },
-    "47": {
-        "user": "EthanChiu6",
-        "task": "D",
-        "time": 6059774
-    },
-    "51": {
-        "user": "EthanChiu6",
-        "task": "D",
-        "time": 6367562
-    },
-    "52": {
-        "user": "EthanChiu6",
-        "task": "D",
-        "time": 6368451
-    },
-    "67": {
-        "user": "EthanChiu6",
-        "task": "D",
-        "time": 6428954
-    },
-    "73": {
-        "user": "EthanChiu6",
-        "task": "D",
-        "time": 6605554
-    },
-    "74": {
-        "user": "EthanChiu6",
-        "task": "K1",
-        "time": 6686158
-    },
-    "75": {
-        "user": "EthanChiu6",
-        "task": "K1",
-        "time": 6686889
-    },
-    "76": {
-        "user": "EthanChiu6",
-        "task": "K1",
-        "time": 6883106
-    },
-    "111": {
-        "user": "EthanChiu6",
-        "task": "I",
-        "time": 8920379
-    },
-    "4": {
-        "user": "sc.1101.rex",
-        "task": "A",
-        "time": 4852542
-    },
-    "5": {
-        "user": "sc.1101.rex",
-        "task": "B",
-        "time": 4852916
+        "time": 299
     },
     "6": {
-        "user": "sc.1101.rex",
-        "task": "C",
-        "time": 5021624
-    },
-    "7": {
-        "user": "sc.1101.rex",
-        "task": "C",
-        "time": 5021858
-    },
-    "42": {
-        "user": "sc.1101.rex",
-        "task": "B",
-        "time": 5931701
-    },
-    "43": {
-        "user": "sc.1101.rex",
-        "task": "C",
-        "time": 5931840
-    },
-    "44": {
-        "user": "sc.1101.rex",
-        "task": "C",
-        "time": 6000126
-    },
-    "45": {
-        "user": "sc.1101.rex",
-        "task": "C",
-        "time": 6000187
-    },
-    "46": {
-        "user": "sc.1101.rex",
-        "task": "C",
-        "time": 6000439
-    },
-    "62": {
-        "user": "sc.1101.rex",
-        "task": "K1",
-        "time": 6423389
-    },
-    "69": {
-        "user": "sc.1101.rex",
-        "task": "D",
-        "time": 6494702
-    },
-    "8": {
-        "user": "Jasper7",
+        "user": "Stiff",
         "task": "A",
-        "time": 5121869
-    },
-    "9": {
-        "user": "Jasper7",
-        "task": "A",
-        "time": 5121910
+        "time": 57
     },
     "10": {
-        "user": "Jasper7",
-        "task": "A",
-        "time": 5121945
-    },
-    "11": {
-        "user": "Jasper7",
+        "user": "Stiff",
         "task": "B",
-        "time": 5122153
-    },
-    "18": {
-        "user": "Jasper7",
-        "task": "C",
-        "time": 5129155
-    },
-    "19": {
-        "user": "Jasper7",
-        "task": "C",
-        "time": 5129535
-    },
-    "12": {
-        "user": "RayYu",
-        "task": "A",
-        "time": 5125237
-    },
-    "15": {
-        "user": "RayYu",
-        "task": "B",
-        "time": 5125719
-    },
-    "20": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5129591
-    },
-    "21": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5197957
+        "time": 114
     },
     "22": {
-        "user": "RayYu",
+        "user": "Stiff",
         "task": "C",
-        "time": 5198391
-    },
-    "23": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5210030
-    },
-    "24": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5210236
-    },
-    "25": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5211516
-    },
-    "26": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5212133
-    },
-    "27": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5212196
-    },
-    "28": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5212483
-    },
-    "29": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5212675
-    },
-    "30": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5212837
-    },
-    "31": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5212963
+        "time": 496
     },
     "32": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5213045
-    },
-    "33": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5213600
-    },
-    "34": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5213676
-    },
-    "35": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5214014
+        "user": "Stiff",
+        "task": "D",
+        "time": 1410
     },
     "36": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5214467
+        "user": "Stiff",
+        "task": "D",
+        "time": 1742
     },
     "37": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5215098
+        "user": "Stiff",
+        "task": "D",
+        "time": 1924
     },
-    "38": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5215440
-    },
-    "39": {
-        "user": "RayYu",
-        "task": "C",
-        "time": 5215629
-    },
-    "40": {
-        "user": "ericaaaaa",
-        "task": "A",
-        "time": 5724004
-    },
-    "41": {
-        "user": "ericaaaaa",
-        "task": "A",
-        "time": 5736315
-    },
-    "70": {
-        "user": "ericaaaaa",
-        "task": "A",
-        "time": 6603127
-    },
-    "71": {
-        "user": "ericaaaaa",
-        "task": "A",
-        "time": 6603314
-    },
-    "72": {
-        "user": "ericaaaaa",
-        "task": "B",
-        "time": 6604963
-    },
-    "48": {
-        "user": "PureDevr",
-        "task": "A",
-        "time": 6075001
+    "43": {
+        "user": "Stiff",
+        "task": "D",
+        "time": 2180
     },
     "49": {
-        "user": "PureDevr",
-        "task": "B",
-        "time": 6243924
+        "user": "Stiff",
+        "task": "D",
+        "time": 2466
     },
-    "50": {
-        "user": "PureDevr",
-        "task": "B",
-        "time": 6245039
+    "64": {
+        "user": "Stiff",
+        "task": "H1",
+        "time": 3159
     },
-    "107": {
-        "user": "PureDevr",
-        "task": "C",
-        "time": 8697727
-    },
-    "108": {
-        "user": "PureDevr",
-        "task": "C",
-        "time": 8756852
-    },
-    "109": {
-        "user": "PureDevr",
-        "task": "C",
-        "time": 8757071
-    },
-    "110": {
-        "user": "PureDevr",
-        "task": "C",
-        "time": 8761587
-    },
-    "54": {
-        "user": "Kyle_Ho",
-        "task": "A",
-        "time": 6421591
-    },
-    "57": {
-        "user": "Kyle_Ho",
-        "task": "K1",
-        "time": 6422504
-    },
-    "58": {
-        "user": "Kyle_Ho",
-        "task": "K1",
-        "time": 6422700
-    },
-    "59": {
-        "user": "Kyle_Ho",
-        "task": "K1",
-        "time": 6422756
-    },
-    "60": {
-        "user": "Kyle_Ho",
-        "task": "K1",
-        "time": 6422835
-    },
-    "61": {
-        "user": "Kyle_Ho",
-        "task": "K1",
-        "time": 6423301
-    },
-    "68": {
-        "user": "jeff_wu0302",
-        "task": "A",
-        "time": 6442806
-    },
-    "91": {
-        "user": "jeff_wu0302",
+    "74": {
+        "user": "Stiff",
         "task": "H2",
-        "time": 7556282
+        "time": 3803
     },
-    "92": {
-        "user": "jeff_wu0302",
-        "task": "H2",
-        "time": 7556409
-    },
-    "93": {
-        "user": "jeff_wu0302",
-        "task": "H2",
-        "time": 7559143
-    },
-    "94": {
-        "user": "jeff_wu0302",
-        "task": "B",
-        "time": 7788507
+    "86": {
+        "user": "Stiff",
+        "task": "E",
+        "time": 4793
     },
     "95": {
-        "user": "jeff_wu0302",
-        "task": "B",
-        "time": 7788599
-    },
-    "96": {
-        "user": "jeff_wu0302",
-        "task": "J",
-        "time": 7888511
-    },
-    "97": {
-        "user": "jeff_wu0302",
-        "task": "J",
-        "time": 7888663
-    },
-    "98": {
-        "user": "jeff_wu0302",
-        "task": "J",
-        "time": 7888945
-    },
-    "99": {
-        "user": "jeff_wu0302",
-        "task": "J",
-        "time": 7889262
-    },
-    "100": {
-        "user": "jeff_wu0302",
-        "task": "H1",
-        "time": 8010815
-    },
-    "101": {
-        "user": "jeff_wu0302",
-        "task": "H1",
-        "time": 8010829
-    },
-    "105": {
-        "user": "jeff_wu0302",
-        "task": "D",
-        "time": 8401120
-    },
-    "106": {
-        "user": "jeff_wu0302",
-        "task": "D",
-        "time": 8401222
-    },
-    "102": {
-        "user": "cam196883",
-        "task": "B",
-        "time": 8015938
+        "user": "Stiff",
+        "task": "E",
+        "time": 5224
     },
     "103": {
-        "user": "cam196883",
+        "user": "Stiff",
+        "task": "E",
+        "time": 5798
+    },
+    "107": {
+        "user": "Stiff",
+        "task": "E",
+        "time": 6036
+    },
+    "119": {
+        "user": "Stiff",
+        "task": "K1",
+        "time": 6971
+    },
+    "1": {
+        "user": "I Need Sleep",
+        "task": "A",
+        "time": 284
+    },
+    "13": {
+        "user": "I Need Sleep",
         "task": "B",
-        "time": 8016268
+        "time": 206
+    },
+    "27": {
+        "user": "I Need Sleep",
+        "task": "B",
+        "time": 900
+    },
+    "30": {
+        "user": "I Need Sleep",
+        "task": "B",
+        "time": 969
+    },
+    "31": {
+        "user": "I Need Sleep",
+        "task": "C",
+        "time": 1225
+    },
+    "33": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 1534
+    },
+    "34": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 1659
+    },
+    "35": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 1687
+    },
+    "38": {
+        "user": "I Need Sleep",
+        "task": "B",
+        "time": 1986
+    },
+    "40": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 2122
+    },
+    "42": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 2175
+    },
+    "44": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 2221
+    },
+    "53": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 2643
+    },
+    "56": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 2899
+    },
+    "77": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 4109
+    },
+    "81": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 4407
+    },
+    "89": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 4953
+    },
+    "90": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 5040
+    },
+    "92": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 5141
+    },
+    "94": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 5199
+    },
+    "97": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 5286
+    },
+    "99": {
+        "user": "I Need Sleep",
+        "task": "H1",
+        "time": 5571
+    },
+    "101": {
+        "user": "I Need Sleep",
+        "task": "D",
+        "time": 5689
+    },
+    "106": {
+        "user": "I Need Sleep",
+        "task": "H2",
+        "time": 5949
+    },
+    "109": {
+        "user": "I Need Sleep",
+        "task": "H2",
+        "time": 6128
+    },
+    "110": {
+        "user": "I Need Sleep",
+        "task": "H1",
+        "time": 6213
+    },
+    "112": {
+        "user": "I Need Sleep",
+        "task": "K1",
+        "time": 6260
+    },
+    "117": {
+        "user": "I Need Sleep",
+        "task": "K1",
+        "time": 6793
+    },
+    "2": {
+        "user": "Ill byte you",
+        "task": "A",
+        "time": 287
+    },
+    "11": {
+        "user": "Ill byte you",
+        "task": "A",
+        "time": 147
+    },
+    "15": {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 261
+    },
+    "17": {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 326
+    },
+    "21": {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 399
+    },
+    "29": {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 955
+    },
+    "41": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 2163
+    },
+    "47": {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 2369
+    },
+    "48": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 2371
+    },
+    "50": {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 2487
+    },
+    "52": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 2543
+    },
+    "57": {
+        "user": "Ill byte you",
+        "task": "B",
+        "time": 2932
+    },
+    "68": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 3611
+    },
+    "70": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 3689
+    },
+    "78": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 4152
+    },
+    "79": {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 4167
+    },
+    "82": {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 4464
+    },
+    "83": {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 4561
+    },
+    "96": {
+        "user": "Ill byte you",
+        "task": "D",
+        "time": 5236
+    },
+    "111": {
+        "user": "Ill byte you",
+        "task": "C",
+        "time": 6222
+    },
+    "114": {
+        "user": "Ill byte you",
+        "task": "K1",
+        "time": 6372
+    },
+    "115": {
+        "user": "Ill byte you",
+        "task": "K1",
+        "time": 6712
+    },
+    "4": {
+        "user": "Return 0",
+        "task": "A",
+        "time": 521
+    },
+    "16": {
+        "user": "Return 0",
+        "task": "B",
+        "time": 288
+    },
+    "18": {
+        "user": "Return 0",
+        "task": "B",
+        "time": 332
+    },
+    "24": {
+        "user": "Return 0",
+        "task": "A",
+        "time": 532
+    },
+    "28": {
+        "user": "Return 0",
+        "task": "B",
+        "time": 906
+    },
+    "45": {
+        "user": "Return 0",
+        "task": "B",
+        "time": 2241
+    },
+    "46": {
+        "user": "Return 0",
+        "task": "B",
+        "time": 2270
+    },
+    "91": {
+        "user": "Return 0",
+        "task": "D",
+        "time": 5098
+    },
+    "100": {
+        "user": "Return 0",
+        "task": "K1",
+        "time": 5685
+    },
+    "102": {
+        "user": "Return 0",
+        "task": "K1",
+        "time": 5776
     },
     "104": {
-        "user": "cam196883",
+        "user": "Return 0",
+        "task": "K1",
+        "time": 5807
+    },
+    "113": {
+        "user": "Return 0",
+        "task": "D",
+        "time": 6358
+    },
+    "5": {
+        "user": "na",
         "task": "A",
-        "time": 8016365
+        "time": 46
+    },
+    "39": {
+        "user": "na",
+        "task": "B",
+        "time": 2032
+    },
+    "69": {
+        "user": "na",
+        "task": "B",
+        "time": 3686
+    },
+    "71": {
+        "user": "na",
+        "task": "C",
+        "time": 3705
+    },
+    "73": {
+        "user": "na",
+        "task": "C",
+        "time": 3744
+    },
+    "76": {
+        "user": "na",
+        "task": "C",
+        "time": 3896
+    },
+    "84": {
+        "user": "na",
+        "task": "C",
+        "time": 4747
+    },
+    "85": {
+        "user": "na",
+        "task": "C",
+        "time": 4789
+    },
+    "88": {
+        "user": "na",
+        "task": "C",
+        "time": 4834
+    },
+    "93": {
+        "user": "na",
+        "task": "C",
+        "time": 5194
+    },
+    "105": {
+        "user": "na",
+        "task": "C",
+        "time": 5824
+    },
+    "7": {
+        "user": "Sorry were late.(1)",
+        "task": "A",
+        "time": 68
+    },
+    "9": {
+        "user": "Sorry were late.(1)",
+        "task": "A",
+        "time": 105
+    },
+    "20": {
+        "user": "Sorry were late.(1)",
+        "task": "B",
+        "time": 382
+    },
+    "23": {
+        "user": "Sorry were late.(1)",
+        "task": "B",
+        "time": 529
+    },
+    "25": {
+        "user": "Sorry were late.(1)",
+        "task": "B",
+        "time": 602
+    },
+    "26": {
+        "user": "Sorry were late.(1)",
+        "task": "B",
+        "time": 824
+    },
+    "62": {
+        "user": "Sorry were late.(1)",
+        "task": "C",
+        "time": 3109
+    },
+    "66": {
+        "user": "Sorry were late.(1)",
+        "task": "C",
+        "time": 3348
+    },
+    "80": {
+        "user": "Sorry were late.(1)",
+        "task": "C",
+        "time": 4177
+    },
+    "8": {
+        "user": "Whatever",
+        "task": "A",
+        "time": 83
+    },
+    "14": {
+        "user": "Whatever",
+        "task": "A",
+        "time": 238
+    },
+    "19": {
+        "user": "Whatever",
+        "task": "A",
+        "time": 354
+    },
+    "55": {
+        "user": "Whatever",
+        "task": "D",
+        "time": 2867
+    },
+    "60": {
+        "user": "Whatever",
+        "task": "B",
+        "time": 3039
+    },
+    "61": {
+        "user": "Whatever",
+        "task": "B",
+        "time": 3079
+    },
+    "72": {
+        "user": "Whatever",
+        "task": "C",
+        "time": 3724
+    },
+    "87": {
+        "user": "Whatever",
+        "task": "B",
+        "time": 4796
+    },
+    "108": {
+        "user": "Whatever",
+        "task": "C",
+        "time": 6080
+    },
+    "116": {
+        "user": "Whatever",
+        "task": "B",
+        "time": 6754
+    },
+    "118": {
+        "user": "Whatever",
+        "task": "C",
+        "time": 6849
+    },
+    "120": {
+        "user": "Whatever",
+        "task": "B",
+        "time": 7002
+    },
+    "121": {
+        "user": "Whatever",
+        "task": "B",
+        "time": 7076
+    },
+    "12": {
+        "user": "JEFFS WINGMEN",
+        "task": "A",
+        "time": 197
+    },
+    "51": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 2488
+    },
+    "54": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 2847
+    },
+    "58": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 2964
+    },
+    "59": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3024
+    },
+    "63": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3140
+    },
+    "65": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3299
+    },
+    "67": {
+        "user": "JEFFS WINGMEN",
+        "task": "B",
+        "time": 3489
+    },
+    "75": {
+        "user": "JEFFS WINGMEN",
+        "task": "D",
+        "time": 3853
+    },
+    "98": {
+        "user": "JEFFS WINGMEN",
+        "task": "C",
+        "time": 5459
     }
 }
