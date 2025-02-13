@@ -155,5 +155,33 @@
             "0",
             "0"
         ]
+    },
+    {
+        "user": "Return 0",
+        "task": "D",
+        "time": 8063,
+        "key": "135",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
+    },
+    {
+        "user": "Return 0",
+        "task": "K1",
+        "time": 8388,
+        "key": "149",
+        "token": false,
+        "score": 0.0,
+        "extra": [
+            "0",
+            "0",
+            "0",
+            "0"
+        ]
     }
 ]
