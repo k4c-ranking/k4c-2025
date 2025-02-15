@@ -206,7 +206,8 @@ Pay attention to the lower & upper bounds of $a_i$.
 <details>
 	<summary>Hint 3</summary>
 
-This problem can be solved by using integer operations (addition & multiplication). Other methods might fail on tricky test cases.</details>
+This problem can be solved by using integer operations (addition & multiplication). Other methods might fail on tricky test cases.
+</details>
 
 <details>
 	<summary>Tutorial</summary>
@@ -237,7 +238,7 @@ This problem can be solved by using integer operations (addition & multiplicatio
 
 So, is there a better way that circumvents precision issues altogether? Perhaps by only using integer operations? Well, this is the key observation:
 
-$$\frac{a}{b} = \frac{b}{c} \Leftrightarrow ac = b^2\:\:\: (b, c \ne 0)$$
+$$\frac{a}{b} = \frac{b}{c} \Leftrightarrow ac = b^2 \; (b, c \ne 0)$$
 </details>
 
 <details>
@@ -424,39 +425,6 @@ These two conditions lead to a conclusion: for long arrays, checking for perfect
 </details>
 
 <details>
-	<summary>Notes</summary>
-
-**Lemma 1.** If $r - l \ge 3$, then $\text{ans}[l, r] \le 1$.
-
-This is because the product of four consecutive integers is always $1$ less than a perfect square.
-<br />
-<br />
-
-$$\begin{align}
-0 \times 1 \times 2 \times 3 = 0 = 1^2 - 1 \\
-1 \times 2 \times 3 \times 4 = 24 = 5^2 - 1 \\
-2 \times 3 \times 4 \times 5 = 120 = 11^2 - 1 \\
-3 \times 4 \times 5 \times 6 = 360 = 19^2 - 1 \\
-\dots
-\end{align}$$
-
-**Proof** (by no means required to solve this problem)
-<br />
-<br />
-$$\begin{align}
-n(n+1)(n+2)(n+3) & = \left(n(n+3)\right) \left((n+1)(n+2)\right) \\
- & = (n^2 + 3n)(n^2 + 3n + 2) \\
- & = \left((n^2 + 3n + 1) - 1\right) \left((n^2 + 3n + 1) +1\right) \\
- & = (n^2 + 3n + 1)^2 - 1
-\end{align}$$
-
-**Lemma 2.** $\text{ans}[l, r] = 0$ if and only if $[l, r]$ contains a perfect square.
-
-The forward implication is obviously true, as selecting the perfect square as the subarray will result in $f(p) = 0$. However, showing the converse is way harder. A rigorous but out-of-scope proof is given [here](https://www.renyi.hu/~p_erdos/1939-03.pdf) (by no means required to solve this problem).
-
-</details>
-
-<details>
 	<summary>Implementation (C++)</summary>
 
     /* pI model full solution */
@@ -544,7 +512,7 @@ Find the probability of me getting a gf. No, not $-1$.
 <details>
 	<summary>Tutorial</summary>
 
-Problems may be deceivingly hard or simple. While often overlooked, trivial solutions---even if only applicable to a subproblem---can be really helpful. In this case, $0$ will always work, as it is a multiple of any integer (by definition) and a palindrome.
+Problems may be deceivingly hard or simple. While often overlooked, trivial solutions &mdash; even if only applicable to a subproblem &mdash; can be really helpful. In this case, $0$ will always work, as it is a multiple of any integer (by definition) and a palindrome.
 And before you ask, yes, the examples are intended to trick you :P
 </details>
 
@@ -570,3 +538,31 @@ And before you ask, yes, the examples are intended to trick you :P
         return 0;
     }
 </details>
+
+## Notes
+### I - Square Distance
+**Lemma 1.** If $r - l \ge 3$, then $\text{ans}[l, r] \le 1$.
+
+This is because the product of four consecutive integers is always $1$ less than a perfect square.
+
+$$\begin{align}
+0 \times 1 \times 2 \times 3 = 0 = 1^2 - 1 \\
+1 \times 2 \times 3 \times 4 = 24 = 5^2 - 1 \\
+2 \times 3 \times 4 \times 5 = 120 = 11^2 - 1 \\
+3 \times 4 \times 5 \times 6 = 360 = 19^2 - 1 \\
+\dots
+\end{align}$$
+
+**Proof** (by no means required to solve this problem)
+
+$$\begin{align}
+n(n+1)(n+2)(n+3) & = \left(n(n+3)\right) \left((n+1)(n+2)\right) \\
+ & = (n^2 + 3n)(n^2 + 3n + 2) \\
+ & = \left((n^2 + 3n + 1) - 1\right) \left((n^2 + 3n + 1) +1\right) \\
+ & = (n^2 + 3n + 1)^2 - 1 \\
+\end{align}$$
+
+
+**Lemma 2.** $\text{ans}[l, r] = 0$ if and only if $[l, r]$ contains a perfect square.
+
+The forward implication is obviously true, as selecting the perfect square as the subarray will result in $f(p) = 0$. However, showing the converse is way harder. A rigorous but out-of-scope proof is given [here](https://www.renyi.hu/~p_erdos/1939-03.pdf) (by no means required to solve this problem).
