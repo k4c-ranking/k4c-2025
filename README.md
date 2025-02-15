@@ -2,7 +2,6 @@
 
 Kang Chiao CodeCombat Cup (K4C) is an internal programming contest organized by the Computer Science Honor Society (CSHS), dedicated to promoting CS and fostering inclusivity.
 
-
 ## Disclaimer
 
 **We sincerely apologize for underestimating the problemset difficulty.** While we aimed to create an engaging and inclusive contest, some problems (C, D, E, K1 in particular) proved to be more challenging than expected. Again, we appreciate your effort and persistence. If we have the opportunity to hold a similar event in the future, this experience will serve as a good reference.
@@ -31,16 +30,17 @@ This problem is a giveaway to teams that show up. To pass, your program just nee
 <details>
 	<summary>Implementation (C++)</summary>
 
-	/* pA model full solution */
+```c++
+/* pA model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
-    int main() {
-        cout << "Anything would work";
-        return 0;
-    }
-
+int main() {
+    cout << "Anything would work";
+    return 0;
+}
+```
 </details>
 
 
@@ -79,40 +79,42 @@ By using a rolling variable to keep track of the rolling sum, no arrays are need
 <details>
 	<summary>Implementation (C++)</summary>
 
-    /* pB model full solution */
+```c++
+/* pB model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
 
-    void solve() {
-        int n;
-        cin >> n;
+void solve() {
+    int n;
+    cin >> n;
 
-        // Use a rolling variable to keep track of the sum (no need for array)
-        // As the answer could reach +-10^14, `long long` should be used
-        long long sum = 0;
-        for (int i = 0; i < n; i++) {
-            int x;
-            cin >> x;
-            sum += x;
-        }
-
-        cout << sum << '\n';
+    // Use a rolling variable to keep track of the sum (no need for array)
+    // As the answer could reach +-10^14, `long long` should be used
+    long long sum = 0;
+    for (int i = 0; i < n; i++) {
+        int x;
+        cin >> x;
+        sum += x;
     }
 
+    cout << sum << '\n';
+}
 
-    int main() {
-        cin.tie(0)->sync_with_stdio(0);
 
-        // Boilerplate code for multiple test cases
-        // (available in contest templates)
-        int t;
-        cin >> t;
-        while (t--) solve();
+int main() {
+    cin.tie(0)->sync_with_stdio(0);
 
-        return 0;
-    }
+    // Boilerplate code for multiple test cases
+    // (available in contest templates)
+    int t;
+    cin >> t;
+    while (t--) solve();
+
+    return 0;
+}
+```
 </details>
 
 
@@ -148,42 +150,44 @@ A beginner pitfall is converting the string $n$ into an integer to determine par
 <details>
 	<summary>Implementation (C++)</summary>
 
-    /* pC model full solution */
+```c++
+/* pC model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
 
-    void solve() {
-        string n;  // using a string to store `n` is most appropriate
-        int k;
-        cin >> n >> k;
+void solve() {
+    string n;  // using a string to store `n` is most appropriate
+    int k;
+    cin >> n >> k;
 
-        for (int i = 0; i < k; i++) {
-            // directly converting `n` to int would result in overflow (in C++ and Java)
-            // note that it is sufficient to check the last digit of `n` for parity
-            int last_digit = n.back() - '0';
-            if (last_digit % 2 == 0) {
-                n = n.substr(0, (n.size() + 1) / 2);
-            } else {
-                n = n + n + n + '1';
-            }
+    for (int i = 0; i < k; i++) {
+        // directly converting `n` to int would result in overflow (in C++ and Java)
+        // note that it is sufficient to check the last digit of `n` for parity
+        int last_digit = n.back() - '0';
+        if (last_digit % 2 == 0) {
+            n = n.substr(0, (n.size() + 1) / 2);
+        } else {
+            n = n + n + n + '1';
         }
-
-        cout << n << '\n';
     }
 
+    cout << n << '\n';
+}
 
-    int main() {
-        cin.tie(0)->sync_with_stdio(0);
 
-        // solve multiple test cases
-        int t;
-        cin >> t;
-        while (t--) solve();
+int main() {
+    cin.tie(0)->sync_with_stdio(0);
 
-        return 0;
-    }
+    // solve multiple test cases
+    int t;
+    cin >> t;
+    while (t--) solve();
+
+    return 0;
+}
+```
 </details>
 
 
@@ -244,49 +248,51 @@ $$\frac{a}{b} = \frac{b}{c} \Leftrightarrow ac = b^2 \; (b, c \ne 0)$$
 <details>
 	<summary>Implementation (C++)</summary>
 
-    /* pD model full solution */
+```c++
+/* pD model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
-    /* Returns if (x, y, z) form an arithmetic sequence */
-    bool is_ap(int x, int y, int z) {
-        return x + z == y + y;
+/* Returns if (x, y, z) form an arithmetic sequence */
+bool is_ap(int x, int y, int z) {
+    return x + z == y + y;
+}
+
+/* Returns if (x, y, z) form a geometric sequence */
+bool is_gp(int x, int y, int z) {
+    return y != 0 && (long long)x * z == (long long)y * y;
+}
+
+bool verdict() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int &i: a) cin >> i;  // I used range-based for loops for brevity
+
+    for (int i = 1; i < n-1; i++) {  // i represents the index of the middle term
+        if (!(is_ap(a[i-1], a[i], a[i+1])     // If any three consecutive terms are neither arithmetic
+            || is_gp(a[i-1], a[i], a[i+1])))  // or geometric
+            return false;  // the answer must be "NO"
     }
 
-    /* Returns if (x, y, z) form a geometric sequence */
-    bool is_gp(int x, int y, int z) {
-        return y != 0 && (long long)x * z == (long long)y * y;
-    }
+    return true;
+}
 
-    bool verdict() {
-        int n;
-        cin >> n;
-        vector<int> a(n);
-        for (int &i: a) cin >> i;  // I used range-based for loops for brevity
+void solve() {
+    cout << (verdict() ? "YES": "NO") << '\n';
+}
 
-        for (int i = 1; i < n-1; i++) {  // i represents the index of the middle term
-            if (!(is_ap(a[i-1], a[i], a[i+1])     // If any three consecutive terms are neither arithmetic
-                || is_gp(a[i-1], a[i], a[i+1])))  // or geometric
-                return false;  // the answer must be "NO"
-        }
+int main() {
+    cin.tie(0)->sync_with_stdio(0);
 
-        return true;
-    }
-
-    void solve() {
-        cout << (verdict() ? "YES": "NO") << '\n';
-    }
-
-    int main() {
-        cin.tie(0)->sync_with_stdio(0);
-
-        // Solve multiple test cases
-        int t;
-        cin >> t;
-        while (t--) solve();
-        return 0;
-    }
+    // Solve multiple test cases
+    int t;
+    cin >> t;
+    while (t--) solve();
+    return 0;
+}
+```
 </details>
 
 
@@ -321,72 +327,73 @@ Aside from $Q$ not being explicitly given, there's really no tricks to the easy 
 <details>
 	<summary>Implementation (C++)</summary>
 
-    /* pH1 full model solution */
+```c++
+/* pH1 model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
-    // Global variables
-    const string ORDER = "qwertyuiopasdfghjklzxcvbnm";
-    int rnk[256];  // Using a hashmap (like unordered_map) is also okay
-    string s;
-    int n;
+// Global variables
+const string ORDER = "qwertyuiopasdfghjklzxcvbnm";
+int rnk[256];  // Using a hashmap (like unordered_map) is also okay
+string s;
+int n;
 
 
-    bool cmp(const char &a, const char &b) {  // Custom comparator to process SORT operations
-        return rnk[a] < rnk[b];
+bool cmp(const char &a, const char &b) {  // Custom comparator to process SORT operations
+    return rnk[a] < rnk[b];
+}
+
+void op_ins() {
+    int type; string t;
+    cin >> type >> t;
+
+    int pos[3] = {0, n / 2, n};
+    s.insert(pos[type + 1], t);
+}
+
+void op_repl() {
+    char x, y;
+    cin >> x >> y;
+
+    for (char &c: s)  // I used reference-based for loop for brevity
+        if (c == x)
+            c = y;
+}
+
+void op_rev() {
+    reverse(s.begin(), s.end());
+}
+
+void op_sort() {
+    sort(s.begin(), s.end(), cmp);
+}
+
+void solve() {
+    cin >> s;
+    string op;
+    while (cin >> op) {  // Read until input is exhausted
+        n = s.size();
+        if (op == "INS")  op_ins();
+        if (op == "REPL") op_repl();
+        if (op == "REV")  op_rev();
+        if (op == "SORT") op_sort();
     }
+    cout << s << '\n';
+}
 
-    void op_ins() {
-        int type; string t;
-        cin >> type >> t;
+int main() {
+    // Fast input & output is recommended for this problem
+    cin.tie(0)->sync_with_stdio(0);
 
-        int pos[3] = {0, n / 2, n};
-        s.insert(pos[type + 1], t);
-    }
+    // Preprocess string sorting order
+    for (int i = 0; i < (int)ORDER.size(); i++)
+        rnk[ORDER[i]] = i;
 
-    void op_repl() {
-        char x, y;
-        cin >> x >> y;
-
-        for (char &c: s)  // I used reference-based for loop for brevity
-            if (c == x)
-                c = y;
-    }
-
-    void op_rev() {
-        reverse(s.begin(), s.end());
-    }
-
-    void op_sort() {
-        sort(s.begin(), s.end(), cmp);
-    }
-
-    void solve() {
-        cin >> s;
-        string op;
-        while (cin >> op) {  // Read until input is exhausted
-            n = s.size();
-            if (op == "INS")  op_ins();
-            if (op == "REPL") op_repl();
-            if (op == "REV")  op_rev();
-            if (op == "SORT") op_sort();
-        }
-        cout << s << '\n';
-    }
-
-    int main() {
-        // Fast input & output is recommended for this problem
-        cin.tie(0)->sync_with_stdio(0);
-
-        // Preprocess string sorting order
-        for (int i = 0; i < (int)ORDER.size(); i++)
-            rnk[ORDER[i]] = i;
-
-        solve();
-        return 0;
-    }
-
+    solve();
+    return 0;
+}
+```
 </details>
 
 
@@ -427,63 +434,65 @@ These two conditions lead to a conclusion: for long arrays, checking for perfect
 <details>
 	<summary>Implementation (C++)</summary>
 
-    /* pI model full solution */
+```c++
+/* pI model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
-    long long square(int x) {
-        return (long long)x * x;
-    }
+long long square(int x) {
+    return (long long)x * x;
+}
 
-    int f(long long x) {
-        // It suffices to check two candidates
-        // the square of integers closest to sqrt(x)
-        int y = (int)sqrtl(x);  // sqrtl is more reliable than sqrt
-        return min(x - square(y), square(y+1) - x);
-    }
+int f(long long x) {
+    // It suffices to check two candidates
+    // the square of integers closest to sqrt(x)
+    int y = (int)sqrtl(x);  // sqrtl is more reliable than sqrt
+    return min(x - square(y), square(y+1) - x);
+}
 
-    int answer() {
-        int l, r;
-        cin >> l >> r;
+int answer() {
+    int l, r;
+    cin >> l >> r;
 
-        int x = sqrtl(r);  // sqrtl is more reliable than sqrt
-                        // alternatively, one can preprocess square roots of all 1 <= x <= 10^6
+    int x = sqrtl(r);  // sqrtl is more reliable than sqrt
+                    // alternatively, one can preprocess square roots of all 1 <= x <= 10^6
 
-        /* If the interval contains a perfect square x
-        Selecting the subarray [x, x] will achieve a minimum of 0 */
-        if (l <= square(x) && square(x) <= r) return 0;
+    /* If the interval contains a perfect square x
+    Selecting the subarray [x, x] will achieve a minimum of 0 */
+    if (l <= square(x) && square(x) <= r) return 0;
 
-        /* The product of any four consecutive integers is always
-        1 less than a perfect square */
-        if (r - l >= 3) return 1;
+    /* The product of any four consecutive integers is always
+    1 less than a perfect square */
+    if (r - l >= 3) return 1;
 
-        /* Otherwise, if the interval has a length of 3 or less
-        brute-force checking suffices */
-        int res = f(l);
-        for (int i = l; i <= r; i++) {
-            long long product = 1LL;
-            for (int j = i; j <= r; j++) {
-                product *= j;
-                res = min(res, f(product));
-            }
+    /* Otherwise, if the interval has a length of 3 or less
+    brute-force checking suffices */
+    int res = f(l);
+    for (int i = l; i <= r; i++) {
+        long long product = 1LL;
+        for (int j = i; j <= r; j++) {
+            product *= j;
+            res = min(res, f(product));
         }
-
-        return res;
     }
 
-    void solve() {
-        cout << answer() << '\n';
-    }
+    return res;
+}
 
-    int main() {
-        cin.tie(0)->sync_with_stdio(0);
+void solve() {
+    cout << answer() << '\n';
+}
 
-        // Solve multiple test cases
-        int t;
-        cin >> t;
-        while (t--) solve();
-    }
+int main() {
+    cin.tie(0)->sync_with_stdio(0);
+
+    // Solve multiple test cases
+    int t;
+    cin >> t;
+    while (t--) solve();
+}
+```
 </details>
 
 
@@ -519,24 +528,26 @@ And before you ask, yes, the examples are intended to trick you :P
 <details>
     <summary>Implementation (C++)</summary>
 
-    /* pK1 model full solution */
+```c++
+/* pK1 model full solution */
 
-    #include <bits/stdc++.h>
-    using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
-    void solve() {
-        cout << 0 << '\n';  // 0 is a palindrome and a multiple of any number
-    }
+void solve() {
+    cout << 0 << '\n';  // 0 is a palindrome and a multiple of any number
+}
 
-    int main() {
-        cin.tie(0)->sync_with_stdio(0);
+int main() {
+    cin.tie(0)->sync_with_stdio(0);
 
-        // Solve multiple test cases
-        int t;
-        cin >> t;
-        while (t--) solve();
-        return 0;
-    }
+    // Solve multiple test cases
+    int t;
+    cin >> t;
+    while (t--) solve();
+    return 0;
+}
+```
 </details>
 
 ## Notes
