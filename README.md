@@ -216,31 +216,34 @@ This problem can be solved by using integer operations (addition & multiplicatio
 <details>
 	<summary>Tutorial</summary>
 
-	This problem seems simple, but might be tricky to AC. The underlying motive is to showcase how the imprecision of floating point numbers could lead to errors. Below are some erroneous approaches (C++):
+This problem seems simple, but might be tricky to AC. The underlying motive is to showcase how the imprecision of floating point numbers could lead to errors. Below are some erroneous approaches (C++):
 
-    /* Goal: determine if a, b, c is geometric */
-    int a, b, c;
+```c++
+/* Goal: determine if a, b, c is geometric */
+int a, b, c;
 
-    // RE or WA
-    if (a / b == b / c)
-        // Division by zero could happen
-        
-    // WA
-    if (b != 0 && c != 0 && a / b == b / c)
-        // Actually performs integer division, which auto rounds down
+// RE or WA
+if (a / b == b / c)
+    // Division by zero could happen
+    
+// WA
+if (b != 0 && c != 0 && a / b == b / c)
+    // Actually performs integer division, which auto rounds down
 
-    // WA
-    if (b != 0 && c != 0 && (double)a / b == (double)b / c)
-        // double is not precise enough
-        // Use distance<=(small constant) instead of ==
-        // when dealing with floating point numbers
+// WA
+if (b != 0 && c != 0 && (double)a / b == (double)b / c)
+    // double is not precise enough
+    // Use distance <= (small constant) instead of ==
+    // when dealing with floating point numbers
 
-    // AC or WA
-    const long double EPS = 1e-18;
-    if (b != 0 && c != 0 && abs((long double)a / b - (long double)b / c) < EPS)
-        // Risky, might fail on edge cases (also depends on compiler)
+// AC or WA
+const long double EPS = 1e-18;
+if (b != 0 && c != 0 && abs((long double)a / b - (long double)b / c) < EPS)
+    // Risky, might fail on edge cases (also depends on compiler)
+```
 
-So, is there a better way that circumvents precision issues altogether? Perhaps by only using integer operations? Well, this is the key observation:
+So, is there a better way that circumvents precision issues altogether? Perhaps by only using integer operations?
+Well, the key is to observe that:
 
 $$\frac{a}{b} = \frac{b}{c} \Leftrightarrow ac = b^2 \; (b, c \ne 0)$$
 </details>
