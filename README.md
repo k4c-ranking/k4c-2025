@@ -5,7 +5,11 @@ Kang Chiao CodeCombat Cup (K4C) is an internal programming contest organized by 
 
 ## Disclaimer
 
-**We sincerely apologize for underestimating the problemset difficulty.** While we aimed to create an engaging and inclusive contest, some problems (C, D, E, K1 in particular) ended up being much more challenging than expected. Again, we appreciate your effort and persistence. If we have the opportunity to hold a similar contest in the future, this experience will serve as a good reference. Feel free to read the solutions of problems you missed during the contest, or even retry them in your free time!
+**We sincerely apologize for underestimating the problemset difficulty.** While we aimed to create an engaging and inclusive contest, some problems (C, D, E, K1 in particular) proved to be more challenging than expected. Again, we appreciate your effort and persistence. If we have the opportunity to hold a similar event in the future, this experience will serve as a good reference.
+
+
+## Notice
+Feel free to read through the solutions of problems you missed during the contest, or even try them out in your free time!
 
 
 ## A - !(Hello World)
@@ -14,18 +18,20 @@ Expected Difficulty: ⭐
 
 <details>
     <summary>Hint 1</summary>
-    Just print anything other than hello world :)
+
+Just print anything other than hello world :)
 </details>
 
 <details>
-    <summary>Tutorial</summary>
-    This problem is a giveaway to teams that show up. To pass, your program just needs to compile and output anything (other than hello world).
+	<summary>Tutorial</summary>
+
+This problem is a giveaway to teams that show up. To pass, your program just needs to compile and output anything (other than hello world).
 </details>
 
 <details>
 	<summary>Implementation (C++)</summary>
 
-    /* pA model full solution */
+	/* pA model full solution */
 
     #include <bits/stdc++.h>
     using namespace std;
@@ -44,22 +50,26 @@ Expected Difficulty: ⭐
 
 <details>
 	<summary>Hint 1</summary>
-	Use a `for` loop to handle multiple test cases.
+
+Use a `for` loop to handle multiple test cases.
 </details>
 
 <details>
 	<summary>Hint 2</summary>
-	For each test case, use another `for` loop with two variables, one being the rolling sum.
+
+For each test case, use another `for` loop with two variables, one being the rolling sum.
 </details>
 
 <details>
 	<summary>Hint 3</summary>
-	For C++/Java: Mind the maximum value `int` can handle.
+
+For C++/Java: Mind the maximum value `int` can handle.
 </details>
 
 <details>
 	<summary>Tutorial</summary>
-	This problem tests your proficiency with input/output operations and `for` loops. In addition, it introduces you the general problem format.
+
+This problem tests your proficiency with input/output operations and `for` loops. In addition, it introduces you the general problem format.
 
 By using a rolling variable to keep track of the rolling sum, no arrays are needed. Also note that you can (and should) print answers to each test case **on the fly**.
 
@@ -112,23 +122,27 @@ Expected Difficulty: ⭐⭐
 
 <details>
 	<summary>Hint 1</summary>
-	What data type is most appropriate for storing `n`?
+
+What data type is most appropriate for storing `n`?
 </details>
 
 <details>
 	<summary>Hint 2</summary>
-	Use a string.
+
+Use a string.
 </details>
 
 <details>
 	<summary>Hint 3</summary>
-	How would _you_ quickly tell if a number is odd or even?
+
+How would *you* quickly tell if a number is odd or even?
 </details>
 
 <details>
 	<summary>Tutorial</summary>
-	This problem requires proficiency in loops and strings.
-    A beginner pitfall is converting the string $n$ into an integer to determine parity, especially in Python. This would likely lead to TLE (Time Limit Exceeded) or RE (Runtime Error). To receive full credit, you should check only if the last digit of $n$ is odd or even.
+
+This problem requires proficiency in loops and strings.
+A beginner pitfall is converting the string $n$ into an integer to determine parity, especially in Python. This would likely lead to TLE (Time Limit Exceeded) or RE (Runtime Error). To receive full credit, you should check only if the last digit of $n$ is odd or even.
 </details>
 
 <details>
@@ -179,17 +193,20 @@ Expected Difficulty: ⭐⭐
 
 <details>
 	<summary>Hint 1</summary>
-	If any three consecutive numbers are neither arithmetic nor geometric, you can immediately answer `NO`. This obvious fact might make implementation easier.
+
+If any three consecutive numbers are neither arithmetic nor geometric, you can immediately answer `NO`. This obvious fact might make implementation easier.
 </details>
 
 <details>
 	<summary>Hint 2</summary>
-	Pay attention to the lower & upper bounds of $a_i$.
+
+Pay attention to the lower & upper bounds of $a_i$.
 </details>
 
 <details>
 	<summary>Hint 3</summary>
-	This problem can be solved by using integer operations (addition & multiplication). Other methods might fail on tricky test cases.</details>
+
+This problem can be solved by using integer operations (addition & multiplication). Other methods might fail on tricky test cases.</details>
 
 <details>
 	<summary>Tutorial</summary>
@@ -278,22 +295,26 @@ Expected Difficulty: ⭐⭐
 
 <details>
 	<summary>Hint 1</summary>
-	Try Googling "[C++/Python/Java] read until EOF"
+
+Try Googling "[C++/Python/Java] read until EOF"
 </details>
 
 <details>
 	<summary>Hint 2</summary>
-	To process $\text{SORT}$ operations, implement a custom comparator returning `order[char1] < order[char2]`.
+
+To process $\text{SORT}$ operations, implement a custom comparator returning `order[char1] < order[char2]`.
 </details>
 
 <details>
 	<summary>Hint 3</summary>
-	Don't overthink it &mdash; just do exactly what the problem says.
+
+Don't overthink it &mdash; just do exactly what the problem says.
 </details>
 
 <details>
 	<summary>Tutorial</summary>
-	Aside from $Q$ not being explicitly given, there's really no tricks to the easy version of this problem. Just follow the instructions and your solution should pass in $\mathcal O(Q N \log N)$ time.
+
+Aside from $Q$ not being explicitly given, there's really no tricks to the easy version of this problem. Just follow the instructions and your solution should pass in $\mathcal O(Q N \log N)$ time.
 </details>
 
 <details>
@@ -374,22 +395,26 @@ Expected Difficulty: ⭐⭐⭐⭐
 
 <details>
 	<summary>Hint 1</summary>
-	Consider any $x$. To compute $f(x)$ using the formula, checking $n$ one-by-one is too slow. Can you narrow it down to $2$ candidates?
+
+Consider any $x$. To compute $f(x)$ using the formula, checking $n$ one-by-one is too slow. Can you narrow it down to $2$ candidates?
 </details>
 
 <details>
 	<summary>Hint 2</summary>
-	Try brute-forcing answers to small inputs. Notice any patterns?
+
+Try brute-forcing answers to small inputs. Notice any patterns?
 </details>
 
 <details>
 	<summary>Hint 3</summary>
-	Under what condition is the answer trivially $0$?
+
+Under what condition is the answer trivially $0$?
 </details>
 
 <details>
 	<summary>Tutorial</summary>
-	To efficiently compute $f(x)$ for some $x$, notice that $|x - n^2|$ obtains a minimum of $0$ at $n = \sqrt x$. It follows that the nearest integer values are $\lfloor \sqrt x \rfloor$ and $\lceil \sqrt x \rceil$. Therefore, comparing $|x - n^2|$ at these values suffices.
+
+To efficiently compute $f(x)$ for some $x$, notice that $|x - n^2|$ obtains a minimum of $0$ at $n = \sqrt x$. It follows that the nearest integer values are $\lfloor \sqrt x \rfloor$ and $\lceil \sqrt x \rceil$. Therefore, comparing $|x - n^2|$ at these values suffices.
 
 There is another challenge. For small inputs like subtask 1, directly computing $f(p)$ for each subarray works. Unfortunately, that is too slow for large inputs up to $10^6$. Still, observing small inputs may lead to patterns that generalize. This is a common technique in programming problems of any difficulty.
 
@@ -400,7 +425,8 @@ These two conditions lead to a conclusion: for long arrays, checking for perfect
 
 <details>
 	<summary>Notes</summary>
-	**Lemma 1.** If $r - l \ge 3$, then $\text{ans}[l, r] \le 1$.
+
+**Lemma 1.** If $r - l \ge 3$, then $\text{ans}[l, r] \le 1$.
 
 This is because the product of four consecutive integers is always $1$ less than a perfect square.
 <br />
@@ -499,23 +525,27 @@ Expected Difficulty: ⭐
 
 <details>
 	<summary>Hint 1</summary>
-	You should never print $-1$.
+
+You should never print $-1$.
 </details>
 
 <details>
 	<summary>Hint 2</summary>
-	Look for a trivial solution.
+
+Look for a trivial solution.
 </details>
 
 <details>
 	<summary>Hint 3</summary>
-	Find the probability of me getting a gf. No, not $-1$.
+
+Find the probability of me getting a gf. No, not $-1$.
 </details>
 
 <details>
 	<summary>Tutorial</summary>
-	Problems may be deceivingly hard or simple. While often overlooked, trivial solutions---even if only applicable to a subproblem---can be really helpful. In this case, $0$ will always work, as it is a multiple of any integer (by definition) and a palindrome.
-    And before you ask, yes, the examples are intended to trick you :P
+
+Problems may be deceivingly hard or simple. While often overlooked, trivial solutions---even if only applicable to a subproblem---can be really helpful. In this case, $0$ will always work, as it is a multiple of any integer (by definition) and a palindrome.
+And before you ask, yes, the examples are intended to trick you :P
 </details>
 
 <details>
